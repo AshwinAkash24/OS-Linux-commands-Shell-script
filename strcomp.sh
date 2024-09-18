@@ -1,4 +1,4 @@
-bash
+
 \#!/bin/bash
 val1=baseball
 val2=hockey

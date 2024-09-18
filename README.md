@@ -505,14 +505,14 @@ echo "$val1 is less than $val2"
 fi
 ```
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-18 22-17-43.png>)
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-18 22-20-32.png>)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -539,7 +539,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-18 22-16-11.png>)
 # check if with file location
 cat>ifnested.sh 
 ```bash
@@ -585,7 +585,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-18 22-23-33.png>)
 
 
 # using numeric test comparisons
@@ -628,8 +628,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
-
+## OUTPUT
+![alt text](<images/Screenshot from 2024-09-18 22-29-27.png>)
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -677,8 +677,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
-
+## OUTPUT
+![alt text](<images/Screenshot from 2024-09-18 22-23-33.png>)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -706,7 +706,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-18 22-34-35.png>)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -722,7 +722,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-18 22-37-27.png>)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -741,7 +741,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+![alt text](<images/Screenshot from 2024-09-18 22-39-29.png>)
 cat > whiletest
 ```bash
 #!/bin/bash
