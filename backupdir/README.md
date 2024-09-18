@@ -368,39 +368,28 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![alt text](<images/Screenshot from 2024-09-02 20-58-13.png>)
+
 
 mkdir backupdir
-## OUTPUT
-![alt text](<images/Screenshot from 2024-09-03 09-13-01.png>)
-
-![alt text](<images/Screenshot from 2024-09-03 09-13-48.png>)
  
 mv backup.tar backupdir
-## OUTPUT
-![alt text](<images/Screenshot from 2024-09-03 08-38-29.png>)
-
-![alt text](<images/Screenshot from 2024-09-03 08-40-21.png>)
-
+ 
 tar -tvf backup.tar
 ## OUTPUT
-![alt text](<images/Screenshot from 2024-09-03 09-19-20.png>)
+
 
 tar -xvf backup.tar
 ## OUTPUT
-![alt text](<images/Screenshot from 2024-09-03 09-20-45.png>)
 
 gzip backup.tar
+
 ls .gz
 ## OUTPUT
-![alt text](<images/Screenshot from 2024-09-03 09-22-03.png>)
-![alt text](<images/Screenshot from 2024-09-03 09-22-31.png>)
-
+ 
 gunzip backup.tar.gz
 ## OUTPUT
-![alt text](<images/Screenshot from 2024-09-03 09-26-06.png>)
-![alt text](<images/Screenshot from 2024-09-03 09-26-22.png>)
 
+ 
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
@@ -418,9 +407,10 @@ i cant stop
 for this non stop movement
 stop
 ```
+
 cat herecheck.txt
 ## OUTPUT
-![alt text](<images/Screenshot from 2024-09-11 20-47-22.png>)
+
 
 cat < scriptest.sh 
 ```bash
@@ -458,22 +448,24 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-![alt text](<images/Screenshot from 2024-09-11 20-53-18.png>)
+
  
 ls file1
 ## OUTPUT
-![alt text](<images/Screenshot from 2024-09-11 20-54-55.png>)
+
 echo $?
 ## OUTPUT 
-![alt text](<images/Screenshot from 2024-09-11 20-58-23.png>)
-
-
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- ![alt text](<images/Screenshot from 2024-09-14 21-32-54.png>)
+ 
+abcd
+ 
+echo $?
+ ## OUTPUT
+
 
  
 # mis-using string comparisons
@@ -504,7 +496,7 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-## OUTPUT
+##OUTPUT
 
 
 
