@@ -409,7 +409,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-19 08-50-24.png>)
  
 cat << stop > herecheck.txt
 ```
@@ -802,7 +802,7 @@ $ chmod 755 forin2.sh
  
 cat forin2.sh 
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-19 08-54-13.png>)
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -813,19 +813,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
-
 ## OUTPUT
+ ![alt text](<images/Screenshot from 2024-09-19 08-56-49.png>)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -1078,7 +1068,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![alt text](<images/Screenshot from 2024-09-19 09-00-32.png>)
 
 # RESULT:
 The Commands are executed successfully.
