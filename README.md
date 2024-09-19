@@ -837,7 +837,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-19 09-12-55.png>)
 
 cat forctype.sh 
 ```bash
