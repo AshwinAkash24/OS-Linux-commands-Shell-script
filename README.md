@@ -1,5 +1,7 @@
-# OS-Linux-commands-Shell-scripting
-Operating systems Lab exercise
+# EX-01:OS-Linux-commands-Shell-scripting
+## Name : Ashwin Akash M
+## Register Number:212223230024
+## Department: AI&DS
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
 
