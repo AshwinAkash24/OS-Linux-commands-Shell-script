@@ -757,7 +757,8 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+## OUTPUT
+![alt text](<images/Screenshot from 2024-09-18 23-47-15.png>)
  
 cat untiltest.sh 
 ```bash
@@ -784,7 +785,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+## OUTPUT
+![alt text](<images/Screenshot from 2024-09-18 23-56-29.png>)
  
 cat forin2.sh 
 ```bash
@@ -799,18 +801,8 @@ done
 $ chmod 755 forin2.sh
  
 cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
- 
-$ ./forin2.sh 
- 
+## OUTPUT
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -869,7 +861,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-19 07-19-30.png>)
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -882,7 +874,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-19 07-23-18.png>)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -900,7 +892,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-19 08-22-40.png>)
  
 cat forbreak.sh 
 ```bash
@@ -917,12 +909,10 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
-
 $ chmod 755 forbreak.sh
- 
 $ ./forbreak.sh 
- 
-cat forbreak.sh 
+ ![alt text](<images/Screenshot from 2024-09-19 08-25-54.png>)
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -936,13 +926,12 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-
  
 $ chmod 755 forcontinue.sh
- 
+
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![alt text](<images/Screenshot from 2024-09-19 08-29-37.png>)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -956,7 +945,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![alt text](<images/Screenshot from 2024-09-19 08-32-43.png>)
 
  cat exread1.sh
 ```bash
@@ -966,12 +955,10 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
+./exread1.sh
 ## OUTPUT
+![alt text](<images/Screenshot from 2024-09-19 08-35-59.png>)
 
-
-
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -990,10 +977,8 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
-
- 
  ./funcex.sh 1 2
-
+![alt text](<images/Screenshot from 2024-09-19 08-40-48.png>)
  
 cat argshift.sh
 ```bash
@@ -1007,7 +992,7 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![alt text](<images/Screenshot from 2024-09-19 08-17-40.png>)
  cat argshift1.sh
 ```bash
  #/bin/bash 
@@ -1024,7 +1009,7 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
+ ![alt text](<images/Screenshot from 2024-09-19 08-14-25.png>)
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1037,7 +1022,7 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ ![alt text](<images/Screenshot from 2024-09-19 08-09-34.png>)
  
 cat > nc.awk
 ```bash
@@ -1068,12 +1053,10 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![alt text](<images/Screenshot from 2024-09-19 07-28-53.png>)
 cat > palindrome.sh
 ```bash
-#num=545
-echo "Enter the number"
-read num
+num=545
 s=0
 rev=""
 temp=$num
